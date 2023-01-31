@@ -7,4 +7,6 @@ import com.digitazon.form_base_crud_fe.model.Contact;
 public interface ContactRepository extends JpaRepository<Contact, Long> {
 
     public Contact findByUsername(String userName);
+
+    public Contact findByEmail(String email);
 }
