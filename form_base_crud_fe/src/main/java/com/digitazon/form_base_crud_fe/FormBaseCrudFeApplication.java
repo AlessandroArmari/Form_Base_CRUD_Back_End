@@ -8,6 +8,9 @@ public class FormBaseCrudFeApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FormBaseCrudFeApplication.class, args);
+
+		System.out.println("Application Started!!!");
+
 	}
 
 }

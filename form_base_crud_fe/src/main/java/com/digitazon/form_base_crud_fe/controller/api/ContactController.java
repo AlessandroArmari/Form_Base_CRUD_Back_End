@@ -13,11 +13,13 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 import com.digitazon.form_base_crud_fe.model.Contact;
 import com.digitazon.form_base_crud_fe.service.ContactService;
 
-@CrossOrigin
+@CrossOrigin // IMPORTANT: to join back-end and front-end
+@RestController
 @RequestMapping("/contacts")
 public class ContactController {
 
