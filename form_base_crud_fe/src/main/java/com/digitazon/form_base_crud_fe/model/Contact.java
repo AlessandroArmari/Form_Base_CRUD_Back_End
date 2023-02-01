@@ -28,7 +28,7 @@ public class Contact {
     private String email;
 
     /*
-     * BECAUSE I HAVE @Data--->Lombok already provides us with an emoty constructor
+     * BECAUSE I HAVE @Data--->Lombok already provides us with an empty constructor
      * public Contact(){
      * 
      * }

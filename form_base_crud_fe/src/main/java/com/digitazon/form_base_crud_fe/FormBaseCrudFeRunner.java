@@ -16,11 +16,13 @@ public class FormBaseCrudFeRunner implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        Contact c1 = new Contact("Julliver", "giulia.cassano@gmail.com");
-        Contact c2 = new Contact("Armandeiro", "alex.armari@libero.it");
-
-        contactService.saveContact(c1);
-        contactService.saveContact(c2);
+        /*
+         * Contact c1 = new Contact("Julliver", "giulia.cassano@gmail.com");
+         * Contact c2 = new Contact("Armandeiro", "alex.armari@libero.it");
+         * 
+         * contactService.saveContact(c1);
+         * contactService.saveContact(c2);
+         */
 
     }
 
